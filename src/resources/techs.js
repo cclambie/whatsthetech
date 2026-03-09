@@ -855,6 +855,14 @@ const knownTechs = {
   cloudflare: {
     icon: 'cloudflare.ico',
     url: 'https://www.cloudflare.com/'
+  },
+   Squarespace: {
+    icon: 'squarespace.ico',
+    url: 'http://squarespace.com'
+  },
+   Wix: {
+    icon: 'Wix.ico',
+    url: 'http://wix.com'
   }
 }
 

@@ -58,6 +58,8 @@ function detectApps() {
       GetSimple: /GetSimple/,
       DataLifeEngine: /DataLife Engine/,
       ClanSphere: /ClanSphere/,
+      Squarespace: /squarespace/,
+      Wix: /wix/,
       'Mura CMS': /Mura CMS\s*(.*)/i,
       'Tiki Wiki CMS Groupware': /Tiki/i
     },
@@ -140,6 +142,8 @@ function detectApps() {
 
     BuySellAds: /buysellads.com\/.*bsa\.js/,
     Weebly: /weebly\.com\/weebly\//,
+    Squarespace: /squarespace\.com/,
+    Wix: /wix\.com/,
     Bootstrap: /bootstrap(-.*)?\.js/,
     Jigsy: /javascripts\/asterion\.js/,
     // may change later
@@ -177,6 +181,8 @@ function detectApps() {
     Magento: /var BLANK_URL = '[^>]+js\/blank\.html'/i,
     Tumblr: /<iframe src=("|')http:\/\/\S+\.tumblr\.com/i,
     WordPress: /<link rel=("|')stylesheet("|') [^>]+wp-content/i,
+    Squarespace: /squarespace\.com/,
+    Wix: /wix\.com/,
     Closure: /<script[^>]*>.*goog\.require/i,
     Liferay: /<script[^>]*>.*LifeRay\.currentURL/i,
     vBulletin: /vbmenu_control/i,
